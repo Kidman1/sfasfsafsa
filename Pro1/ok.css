@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif ;
+    background-color: #f5fff7;
+}
+header{
+    text-align: center;
+}
+header h1{
+    position: relative;
+    top: 130px;
+    color: rgb(68, 192, 141) ;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(192, 192, 192, 0.5);
+}
+header h2{
+    position: relative;
+    top: 180px;
+    font-weight: 100;
+}
+section article{
+    border: 0.5px solid rgb(203, 203, 203);
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin: 100px auto 0;
+    border-radius: 20px 20px;
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.3);
+}
+section article form{
+    text-align: center;
+    margin-top: 120px;
+    
+}
+section article nav{
+    text-align: center;
+    margin-right: 40px;
+}
+
+section article form input,
+section article form p input,
+section article p button{
+    display: block;
+    width: calc(100% - 40px);
+    margin: 10px auto;
+    padding: 15px; /* กำหนดความสูงของช่องใส่ข้อมูล */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+section article p button{
+    background-color: rgb(46, 211, 101);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+section article nav ul a{
+    text-decoration: none;
+    color: black;
+}
+section article nav ul{
+    position: relative;
+}
+footer{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.lol{
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
